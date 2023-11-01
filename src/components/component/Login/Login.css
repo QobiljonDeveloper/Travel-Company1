@@ -1,0 +1,32 @@
+.sigin .swiper {
+  width: 40vw;
+  height: 700px;
+  border-radius: 20px;
+}
+
+.verify .swiper {
+  width: 40vw;
+  height: 700px;
+  border-radius: 20px;
+  position: relative;
+}
+
+
+.sigin .swiper-slide {
+  /* text-align: center; */
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sigin .swiper-slide img {
+  display: block;
+  width: 500px;
+  height: 700px;
+  object-fit: cover;
+  border-radius: 20px;
+}
